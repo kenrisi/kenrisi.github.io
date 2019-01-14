@@ -1,10 +1,45 @@
-body {
-	margin: 0;
-	padding: 0;
-	background: darkgreen;
-	color: white;
-	
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+main{
+	background-color: #f6ff45;
 }
-main {
-	padding: 1em;
+
+header
+{
+  display : grid;
+  grid-template-columns : 1fr 1fr;
+}
+
+.title p
+{
+	color: white;
+  margin-top : 45vh;
+  margin-left : 18vw;
+  position :fixed;
+  font-size : 120px;
+  font-family : 'Raleway',sans-serif;
+  font-weight : lgh
+
+
+}
+.content
+{
+  padding-top : 100vh;
+  padding-bottom : 30vh;
+  padding-right : 55px;
+}
+.content h2
+{
+  font-family : regular;
+  font-size : 50px;
+  padding-bottom : 25px;
+}
+.content p
+{
+  font-family : regular;
+  font-size : 25px;
+  padding-bottom : 13px;
+  text-align : left;
+  line-height : 1.25;
 }
